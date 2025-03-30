@@ -2,8 +2,8 @@ from langchain_core.messages import HumanMessage, AIMessage
 from langchain_core.prompts.chat import ChatPromptTemplate
 from langchain_openai import ChatOpenAI
 from langgraph.graph import END, StateGraph
-from langgraph.prebuilt import ToolNode
-from typing import Dict, List, Literal, TypedDict, Annotated, Union
+from langgraph.graph.message import MessageGraph
+from typing import Dict, List, Literal, TypedDict, Annotated, Union, Optional
 import os
 from jinja2 import Environment, FileSystemLoader
 from datetime import datetime
