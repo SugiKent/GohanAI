@@ -36,8 +36,3 @@ GohanAI/
 4. Supervisor
 5. Coder
 6. Coordinator
-
-## Next Steps
-- Document agent responsibilities
-- Map out workflow connections
-- Add environment requirements
